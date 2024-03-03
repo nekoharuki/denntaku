@@ -1,0 +1,38 @@
+h1{
+  text-align: center;
+  font-size: 50px;
+ color: #161cba;
+}
+.calculator {
+    width: 500px;
+    margin: 10px auto;
+    border: 10px solid #1dd726;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .display {
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 50px;
+  }
+  
+  .keys {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 5px;
+  }
+  
+  .keys button {
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    background-color: #2216ca1b;
+    cursor: pointer;
+  }
+  
+  .keys button:hover {
+    background-color: #62e2d3;
+  }
+  
